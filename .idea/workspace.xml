@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6038442-869c-4b01-b4d6-c190478744ef" name="Changes" comment="added task find substring in string">
+    <list default="true" id="d6038442-869c-4b01-b4d6-c190478744ef" name="Changes" comment="updated task find substring in string">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/substring-in-string/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/substring-in-string/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/number-chars-sum/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/number-chars-sum/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <recent name="C:\Users\nasts\IdeaProjects\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="find-index-of-first-occurrence-in-string" />
@@ -88,8 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676471705375</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated task find substring in string">
+      <created>1676531874431</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676531874431</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +151,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="added task sum digits from number" />
     <MESSAGE value="added task find substring in string" />
-    <option name="LAST_COMMIT_MESSAGE" value="added task find substring in string" />
+    <MESSAGE value="updated task find substring in string" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated task find substring in string" />
   </component>
 </project>

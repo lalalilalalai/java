@@ -1,33 +1,21 @@
-import java.util.Scanner;
-
-
 public class Main {
 
     public static void main(String[] args) {
-        while (true) {
-            String input = new Scanner(System.in).nextLine();
-            if (input.equals("exit")) {
-                break;
-            }
-            try {
-                System.out.println(sumNumberChars(input));
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
+        System.out.println(sumNumberDigits(560));
+        System.out.println(sumNumberDigits(100));
+        System.out.println(sumNumberDigits(15));
+        System.out.println(sumNumberDigits(0));
     }
 
-    //    Input is any number. You need to add up the digits. Example: 99 → 18, 123 → 6
-    public static int sumNumberChars(String input) {
-        String regex = "\\d+";
-        if (input.matches(regex)) {
-            int sum = 0;
-            for (int i = 0; i < input.length(); i++) {
-                String digit = String.valueOf(input.charAt(i));
-                sum += Integer.parseInt(digit);
-            }
-            return sum;
+    public static int sumNumberDigits(int number) {
+//        TODO Argument is number. Return sum of number digits. For example: 100 → 1 , 15 → 6 и тд
+//        TODO На вход приходит любое число. Вернуть сумму цифр числа. Пример: 100 → 1 , 15 → 6 и тд
+        String str = Integer.toString(number);
+        char[] digits = str.toCharArray();
+        int sum = 0;
+        for (char digit : digits) {
+            sum += Character.getNumericValue(digit);
         }
-        throw new RuntimeException("Entered non-number!");
+        return sum;
     }
 }

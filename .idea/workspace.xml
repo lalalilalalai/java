@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6038442-869c-4b01-b4d6-c190478744ef" name="Changes" comment="added task factorial">
-      <change afterPath="$PROJECT_DIR$/double-values-in-list/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/double-values-in-list/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="d6038442-869c-4b01-b4d6-c190478744ef" name="Changes" comment="added task double-values-in-list">
+      <change afterPath="$PROJECT_DIR$/strange-array-task/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strange-array-task/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -53,7 +53,7 @@
       <recent name="C:\Users\nasts\IdeaProjects\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="array-max-number" />
@@ -68,16 +68,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="double-values-in-list" />
+      <module name="strange-array-task" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="range" />
+      <module name="double-values-in-list" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676611867676</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added task double-values-in-list">
+      <created>1676615241516</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676615241516</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +210,7 @@
     <MESSAGE value="updated task valid-palindrome" />
     <MESSAGE value="added task array-max-number" />
     <MESSAGE value="added task factorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="added task factorial" />
+    <MESSAGE value="added task double-values-in-list" />
+    <option name="LAST_COMMIT_MESSAGE" value="added task double-values-in-list" />
   </component>
 </project>

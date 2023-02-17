@@ -6,26 +6,26 @@ public class Main {
 //    TODO https://leetcode.com/problems/valid-palindrome/
 
     static public void main(String[] args) {
-        String example = "3D3";
-        System.out.println(isPalindrome(example));
+        System.out.println(isPalindrome("Mr. Owl ate my metal worm"));
+        System.out.println(isPalindrome("Was it a car or a cat I saw?"));
+        System.out.println(isPalindrome("F 6 f"));
+        System.out.println(isPalindrome("king5"));
     }
 
     public static boolean isPalindrome(String s) {
-        String strLowerCase = s.toLowerCase();
-        Pattern pattern = Pattern.compile("[a-z0-9]");
-        Matcher matcher = pattern.matcher(strLowerCase);
-
-        StringBuilder resultStraight = new StringBuilder();
-
-        while (matcher.find()) {
-            int start = matcher.start();
-            int end = matcher.end();
-            resultStraight = resultStraight.append(new StringBuilder(strLowerCase.substring(start, end)));
+        s = s.toLowerCase();
+        StringBuilder stringBuilder = new StringBuilder();
+        Pattern p = Pattern.compile("\\w");
+        Matcher m = p.matcher(s);
+        while (m.find()) {
+            int start = m.start();
+            int end = m.end();
+            stringBuilder.append(s, start, end);
         }
 
-        String resultStraightStr = resultStraight.toString();
-        String resultReverseStr = resultStraight.reverse().toString();
+        String straight = stringBuilder.toString();
+        String reverse = stringBuilder.reverse().toString();
 
-        return resultStraightStr.equals(resultReverseStr);
+        return straight.equals(reverse);
     }
 }

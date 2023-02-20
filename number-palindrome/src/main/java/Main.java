@@ -1,6 +1,6 @@
 public class Main {
 
-    //    TODO Given an integer x, return true if x is a palindrome, and false otherwise.
+//    TODO Given an integer x, return true if x is a palindrome, and false otherwise.
 //    https://leetcode.com/problems/palindrome-number/
     public static void main(String[] args) {
         System.out.println(isNumberPalindrome(100));

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6038442-869c-4b01-b4d6-c190478744ef" name="Changes" comment="updated task number-palindrome">
-      <change afterPath="$PROJECT_DIR$/roman-to-integer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roman-to-integer/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="d6038442-869c-4b01-b4d6-c190478744ef" name="Changes" comment="added task longest-common-prefix">
+      <change afterPath="$PROJECT_DIR$/longest-common-prefix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/longest-common-prefix/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -86,10 +86,17 @@
       <recent name="C:\Users\nasts\IdeaProjects\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="roman-to-integer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="longest-common-prefix" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -222,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676890584420</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added task roman-to-integer">
+      <created>1677070175694</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677070175694</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +268,8 @@
     <MESSAGE value="updated task substring-in-string" />
     <MESSAGE value="added task number-palindrome" />
     <MESSAGE value="updated task number-palindrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated task number-palindrome" />
+    <MESSAGE value="added task roman-to-integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added task roman-to-integer" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java$Main.ic" NAME="Main Coverage Results" MODIFIED="1676887767267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

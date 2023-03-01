@@ -44,6 +44,4 @@ public class Main {
         }
         return s1.substring(0, index);
     }
-
-
 }

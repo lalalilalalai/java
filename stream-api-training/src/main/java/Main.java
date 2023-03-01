@@ -7,6 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+//       TODO https://skillbox.ru/media/base/java-stream-api-kopilka-retseptov/
+
         Library library = new Library();
         System.out.println("Sorted by issue year book list:\n" + sortLibraryBooksByIssueYear(library) + "\n");
         System.out.println("Book quantity in library is " + sortLibraryBooksByIssueYear(library).size() + "\n");
